@@ -1,4 +1,3 @@
-import React from "react";
 import HeroTablet from "../assets/Hero Image (Tablet View).png";
 import HeroDesktop from "../assets/Hero Image (Desktop View).png";
 import userAvatar01 from "../assets/userAvatar01.svg";
@@ -16,8 +15,14 @@ const Landing = () => {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col md:px-10 lg:flex-row-reverse items-center md:justify-between px-4 lg:px-20 lg:gap-12 xl:px-32 2xl:px-64">
-        <img src={HeroDesktop} className="mb-5 w-full md:w-[40%] md:hidden lg:block" />
-        <img src={HeroTablet} className="mb-5 w-full lg:w-[40%] hidden md:block lg:hidden" />
+        <img
+          src={HeroDesktop}
+          className="mb-5 w-full md:w-[40%] md:hidden lg:block"
+        />
+        <img
+          src={HeroTablet}
+          className="mb-5 w-full lg:w-[40%] hidden md:block lg:hidden"
+        />
         <div className="md:mb-12">
           <h2 className="font-extrabold leading-[1.2] mb-2 md:text-6xl md:leading-[1.4] lg:max-w-2xl">
             Twitter analytics taken to a whole new level.
