@@ -7,6 +7,7 @@ function App() {
       <div className="bg-bg">
         <NavBar />
         <Landing />
+        <p>hello</p>
       </div>
     </div>
   );
