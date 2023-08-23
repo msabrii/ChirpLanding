@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    font-size: 39.06px;
+    font-weight: 600;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  h2 {
+    font-size: 31.25px;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  h3 {
+    font-size: 25px;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  h4 {
+    font-size: 20px;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  @screen lg {
+    h1 {
+      font-size: 48.83px;
+      font-weight: 600;
+      /* font-family: "Poppins", sans-serif; */
+    }
+    h2 {
+      font-size: 39.06px;
+      /* font-family: "Poppins", sans-serif; */
+    }
+    h3 {
+      font-size: 31.25px;
+      /* font-family: "Poppins", sans-serif; */
+    }
+    h4 {
+      font-size: 20px;
+      /* font-family: "Poppins", sans-serif; */
+    }
+  }
+}
+
+body {
+  overflow: overlay;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
