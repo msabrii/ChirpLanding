@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import Features from "./pages/Features";
 import Landing from "./pages/Landing";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <NavBar />
         <Landing />
       </div>
+      <Features />
     </div>
   );
 }
