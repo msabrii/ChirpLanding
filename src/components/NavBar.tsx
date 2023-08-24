@@ -1,5 +1,5 @@
 import HamburgerMenu from "../assets/Hamburger Menu.svg";
-import TwitterButton from "../pages/TwitterButton";
+import TwitterButton from "./TwitterButton";
 
 const NavBar = () => {
   return (

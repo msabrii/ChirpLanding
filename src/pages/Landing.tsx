@@ -9,42 +9,40 @@ import userAvatar06 from "../assets/userAvatar06.svg";
 import userAvatar07 from "../assets/userAvatar07.svg";
 import userAvatar08 from "../assets/userAvatar08.svg";
 import userAvatar09 from "../assets/userAvatar09.svg";
-import TwitterButton from "./TwitterButton";
+import TwitterButton from "../components/TwitterButton";
 
 const Landing = () => {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col md:px-10 lg:flex-row-reverse items-center md:justify-between px-4 lg:px-20 lg:gap-12 xl:px-32 2xl:px-64">
-        <img
-          src={HeroDesktop}
-          className="mb-5 w-full md:w-[40%] md:hidden lg:block"
-        />
-        <img
-          src={HeroTablet}
-          className="mb-5 w-full lg:w-[40%] hidden md:block lg:hidden"
-        />
-        <div className="md:mb-12">
-          <h2 className="font-extrabold leading-[1.2] mb-2 md:text-6xl md:leading-[1.4] lg:max-w-2xl">
-            Twitter analytics taken to a whole new level.
-          </h2>
-          <p className="text-grey text-base leading-[1.6] mb-5 md:text-xl lg:max-w-2xl md:leading-[1.7]">
-            Chirp is a suite of Twitter analytics that will help you better
-            understand your audience, which tweets they like, and most
-            importantly, when they are the most active on Twitter.
-          </p>
-          <div className="md:flex md:items-center md:mb-8">
-            <TwitterButton rightMargin />
-            <p className="cursor-pointer text-secondary font-bold mb-5 md:mb-0 md:text-xl">
-              Learn more
-            </p>
-          </div>
-          <PeopleRow />
-          <p className="text-grey mb-5 text-xl leading-[1.6] md:max-w-xl">
-            Join <span className="text-secondary font-bold">195</span> others
-            who have analyzed their followers and scheduled{" "}
-            <span className="text-secondary font-bold">1342</span> tweets!
+    <div className="flex flex-col md:px-10 lg:flex-row-reverse items-center md:justify-between px-4 lg:px-20 lg:gap-12 xl:px-32 2xl:px-64">
+      <img
+        src={HeroDesktop}
+        className="mb-5 w-full md:w-[40%] md:hidden lg:block"
+      />
+      <img
+        src={HeroTablet}
+        className="mb-5 w-full lg:w-[40%] hidden md:block lg:hidden"
+      />
+      <div className="md:mb-12">
+        <h2 className="font-extrabold leading-[1.2] mb-2 md:text-6xl md:leading-[1.4] lg:max-w-2xl">
+          Twitter analytics taken to a whole new level.
+        </h2>
+        <p className="text-grey text-base leading-[1.6] mb-5 md:text-xl lg:max-w-2xl md:leading-[1.7]">
+          Chirp is a suite of Twitter analytics that will help you better
+          understand your audience, which tweets they like, and most
+          importantly, when they are the most active on Twitter.
+        </p>
+        <div className="flex flex-col md:flex-row items-center md:mb-8">
+          <TwitterButton rightMargin />
+          <p className="cursor-pointer text-secondary font-bold mb-5 md:mb-0 md:text-xl">
+            Learn more
           </p>
         </div>
+        <PeopleRow />
+        <p className="text-grey mb-8 text-xl leading-[1.6] md:max-w-xl">
+          Join <span className="text-secondary font-bold">195</span> others who
+          have analyzed their followers and scheduled{" "}
+          <span className="text-secondary font-bold">1342</span> tweets!
+        </p>
       </div>
     </div>
   );
