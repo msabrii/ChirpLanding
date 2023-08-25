@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Features from "./pages/Features";
 import Landing from "./pages/Landing";
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <div className="bg-[#D7F5F5]">
         <Testimonials />
+        <Footer />
       </div>
     </div>
   );
