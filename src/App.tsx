@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Features from "./pages/Features";
 import Landing from "./pages/Landing";
+import Pricing from "./pages/Pricing";
 import Testimonials from "./pages/Testimonials";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <Features />
       <div className="bg-[#D7F5F5]">
         <Testimonials />
+      </div>
+      <Pricing />
+      <div className="bg-[#D7F5F5]">
         <Footer />
       </div>
     </div>
