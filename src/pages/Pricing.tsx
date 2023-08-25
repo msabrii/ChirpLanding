@@ -1,4 +1,3 @@
-import React from "react";
 import checkmark from "../assets/Checkmark.svg";
 import TwitterButton from "../components/TwitterButton";
 

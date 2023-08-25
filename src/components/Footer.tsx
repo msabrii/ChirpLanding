@@ -1,4 +1,3 @@
-import React from "react";
 import TwitterBlack from "../assets/Twitter (Black).svg";
 
 const Footer = () => {
